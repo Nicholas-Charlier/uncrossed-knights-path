@@ -3,6 +3,7 @@ import copy
 from Knight_moves import workout_next_square, is_square_free, does_move_cross_path
 
 # specify size of the board (default 8 * 8)
+# must be a square board but could be extended to support rectangles
 board_size = 8
 chess_board_array = [[0 for _ in range(board_size)] for _ in range(board_size)]
 
